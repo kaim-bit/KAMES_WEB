@@ -1,9 +1,12 @@
+html,
 @font-face {
-    font-family: Commodore;
-    src: url('../assets/fonts/Commodore.ttf');
+    font-family: Primal;
+    src: url(fonts/Panic.ttf);
+    font-weight: normal;
+    font-size: normal;
+    font-display: swap;
 }
 
-html,
 body {
     padding: 0;
     margin: 0;
@@ -16,21 +19,11 @@ nav {
     text-shadow: 2px 2px 2px;
 }
 
-canvas {
-    display: block;
-    /* width: 100% !important; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    touch-action: none;
-    /* Helps with touch events on mobile */
-}
 
 header {
     color: black;
     text-shadow: 2px 2px 2px;
+    place-items: center;
 }
 
 main {
@@ -40,7 +33,9 @@ main {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
-    text-align: middle;
+
+    place-items: center;
+    text-align: center;
 
 }
 
@@ -58,10 +53,28 @@ footer {
     margin-bottom: 50px;
     text-shadow: 20px;
     color: black;
+    margin: auto;
+    text-align: center;
 }
 
 h3 {
     padding-top: 30px;
     text-shadow: 2px 2px 2px;
     color: black;
+}
+
+img {
+    place-items: center;
+}
+
+
+/*
+SPECIAL TEXT CLASSES
+*/
+.primal-text {
+    color: #880808;
+    font-family: pr;
+    text-shadow: 10px 2px 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
