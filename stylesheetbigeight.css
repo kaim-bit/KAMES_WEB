@@ -63,12 +63,12 @@ footer {
     height: 50px;
     /* Define a fixed height */
     /* Add padding to the body or main content to prevent text from being hidden behind the fixed footer */
-    margin-bottom: px;
+    margin-bottom: 50px;
     font-family: "Sym";
     text-shadow: 20px;
     color: pink;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h2 {
 h3 {
     font-size: 70px;
     padding-top: 4px;
-    text-shadow: 2px 2px 2px rgb(200, 3, 77);
+    text-shadow: 2px 2px 2px rgb(68, 3, 77);
     color: rgb(233, 14, 222);
     font: bold;
     font-family: 'Sym';
