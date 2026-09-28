@@ -19,11 +19,15 @@ html {
 }
 
 body {
-    padding: 0;
+    background-image: url(testingBackgorund.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    /* padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #31372B;
+    background-color: #31372B; */
 }
 
 nav {
